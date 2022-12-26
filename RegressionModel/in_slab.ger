@@ -1,6 +1,6 @@
 Program Version,GroundTempCalc - Slab, Version .75
    ** Warning **  Slab thickness [0.100 m] reset to 0.123 m  for computational stability.
-   ************* GroundTempCalc:Slab Completed Successfully-- 1 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 13sec
+   ************* GroundTempCalc:Slab Completed Successfully-- 1 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 12sec
   Processing Data Dictionary (SlabGHT.idd) File -- Complete
   Maximum number of Alpha Args=           3
   Maximum number of Numeric Args=          40

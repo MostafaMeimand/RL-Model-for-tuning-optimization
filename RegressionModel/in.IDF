@@ -356,29 +356,6 @@ ScheduleTypeLimits,
 Schedule:Day:Hourly,
     OccupancyDay,            !- Name
     Fraction,                !- Schedule Type Limits Name
-    1.00000,                 !- Hour 1
-    0.89693,                 !- Hour 2
-    1.00000,                 !- Hour 3
-    0.89693,                 !- Hour 4
-    1.00000,                 !- Hour 5
-    0.89693,                 !- Hour 6
-    1.00000,                 !- Hour 7
-    0.88310,                 !- Hour 8
-    0.40861,                 !- Hour 9
-    0.24189,                 !- Hour 10
-    0.24189,                 !- Hour 11
-    0.24189,                 !- Hour 12
-    0.24189,                 !- Hour 13
-    0.24189,                 !- Hour 14
-    0.24189,                 !- Hour 15
-    0.24189,                 !- Hour 16
-    0.29498,                 !- Hour 17
-    0.55310,                 !- Hour 18
-    0.89693,                 !- Hour 19
-    0.89693,                 !- Hour 20
-    0.89693,                 !- Hour 21
-    1.00000,                 !- Hour 22
-    0.89693,                 !- Hour 23
     1.00000;                 !- Hour 24
 
 Schedule:Day:Hourly,

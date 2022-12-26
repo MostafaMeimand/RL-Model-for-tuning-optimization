@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 9.4.0-998c4b761e, YMD=2022.06.23 14:33,
+Program Version,EnergyPlus, Version 9.4.0-998c4b761e, YMD=2022.12.26 14:40,
    ** Warning ** Output:PreprocessorMessage="GroundTempCalc - Slab" has the following Warning condition:
    **   ~~~   ** Slab thickness [0.100 m] reset to 0.123 m  for computational stability.
    ************* Beginning Zone Sizing Calculations
@@ -37,4 +37,4 @@ Program Version,EnergyPlus, Version 9.4.0-998c4b761e, YMD=2022.06.23 14:33,
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
    ************* EnergyPlus Sizing Error Summary. During Sizing: 4 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 6 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  2.44sec
+   ************* EnergyPlus Completed Successfully-- 6 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  1.90sec

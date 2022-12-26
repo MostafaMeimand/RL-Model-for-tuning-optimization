@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 9.4.0-998c4b761e, YMD=2022.06.23 14:33
+Program Version,EnergyPlus, Version 9.4.0-998c4b761e, YMD=2022.12.26 14:40
 ! <Version>, Version ID
  Version, 9.4
 ! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
@@ -116,7 +116,7 @@ Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.
  Zone Internal Gains Nominal, LIVING_UNIT1,220.82,3.0,73.606,1.359E-002,1.630,7.041,0.000,0.000,0.000,0.000,8.671,No
  Zone Internal Gains Nominal, ATTIC_UNIT1,110.41,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
 ! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People
- People Internal Gains Nominal, PEOPLE_UNIT1,OCCUPANCY,LIVING_UNIT1,220.82,3.0,3.0,1.359E-002,73.606,0.000,1.000,AutoCalculate,ACTIVITY_SCH,No,3.8200E-008,1,3
+ People Internal Gains Nominal, PEOPLE_UNIT1,OCCUPANCY,LIVING_UNIT1,220.82,3.0,3.0,1.359E-002,73.606,0.000,1.000,AutoCalculate,ACTIVITY_SCH,No,3.8200E-008,0,3
 ! <Lights Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
  Lights Internal Gains Nominal, LIVING HARDWIRED LIGHTING1,INTERIORLIGHTINGHE,LIVING_UNIT1,220.82,3.0,254.357,1.152,84.786,0.000,0.600,0.200,0.200,0.000,General,17.487,254.357
  Lights Internal Gains Nominal, LIVING PLUG-IN LIGHTING1,INTERIORLIGHTINGHE,LIVING_UNIT1,220.82,3.0,105.654,0.478,35.218,0.000,0.600,0.200,0.200,0.000,General,7.264,105.654
@@ -254,34 +254,34 @@ Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
 ! <Cooling Sizing Factor Information>, Sizing Factor ID, Value
  Cooling Sizing Factor Information, Global,   1.0000    
 ! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
- Zone Sizing Information, LIVING_UNIT1, Cooling, 8471.04208, 8471.04208, 0.70065, 0.70065, HONOLULU INTL ARPT ANN CLG .4% CONDNS DB=>MWB, 8/21 15:30:00, 31.98700, 1.43712E-002, 220.81784, 3.00000, 2.83168E-002, 0.00000
+ Zone Sizing Information, LIVING_UNIT1, Cooling, 8413.90050, 8413.90050, 0.69590, 0.69590, HONOLULU INTL ARPT ANN CLG .4% CONDNS DB=>MWB, 8/21 15:30:00, 31.98700, 1.43712E-002, 220.81784, 3.00000, 2.83168E-002, 0.00000
  Zone Sizing Information, LIVING_UNIT1, Heating, 0.00000, 0.00000, 0.00000, 2.83168E-002, HONOLULU INTL ARPT ANN HTG 99.6% CONDNS DB, , 16.20000, 1.15180E-002, 220.81784, 3.00000, 2.83168E-002, 0.00000
 ! <System Sizing Information>, System Name, Load Type, Peak Load Kind, User Design Capacity, Calc Des Air Flow Rate [m3/s], User Des Air Flow Rate [m3/s], Design Day Name, Date/Time of Peak
- System Sizing Information, CENTRAL SYSTEM_UNIT1, Cooling, Sensible, 8808.23, 0.70065, 0.70065, HONOLULU INTL ARPT ANN CLG .4% CONDNS DB=>MWB, 8/21 05:00:00
+ System Sizing Information, CENTRAL SYSTEM_UNIT1, Cooling, Sensible, 8750.41, 0.69590, 0.69590, HONOLULU INTL ARPT ANN CLG .4% CONDNS DB=>MWB, 8/21 05:00:00
  System Sizing Information, CENTRAL SYSTEM_UNIT1, Heating, Sensible, 1129.30, 2.83168E-002, 2.83168E-002, HONOLULU INTL ARPT ANN HTG 99.6% CONDNS DB, 2/21 00:15:00
 ! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
- Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONEDIRECTAIR_UNIT1, Design Size Maximum Air Flow Rate [m3/s], 0.70065
- Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.70065
- Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.70065
- Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.70065
- Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Adjusted Heating Design Air Flow Rate [m3/s], 0.70065
- Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Adjusted Cooling Design Air Flow Rate [m3/s], 0.70065
- Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Adjusted Main Design Air Flow Rate [m3/s], 0.70065
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONEDIRECTAIR_UNIT1, Design Size Maximum Air Flow Rate [m3/s], 0.69590
+ Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.69590
+ Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.69590
+ Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.69590
+ Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Adjusted Heating Design Air Flow Rate [m3/s], 0.69590
+ Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Adjusted Cooling Design Air Flow Rate [m3/s], 0.69590
+ Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Adjusted Main Design Air Flow Rate [m3/s], 0.69590
  Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, User Heating Air Flow Ratio [], 1.00000
  Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Calculated Heating Air Flow Ratio [], 1.00000
- Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Design Supply Air Flow Rate [m3/s], 0.70065
- Component Sizing Information, Coil:Cooling:DX:SingleSpeed, DX COOLING COIL_UNIT1, Design Size Rated Air Flow Rate [m3/s], 0.70065
- Component Sizing Information, Coil:Cooling:DX:SingleSpeed, DX COOLING COIL_UNIT1, Design Size Gross Rated Total Cooling Capacity [W], 12153.22849
- Component Sizing Information, Coil:Cooling:DX:SingleSpeed, DX COOLING COIL_UNIT1, Design Size Gross Rated Sensible Heat Ratio, 0.80087
+ Component Sizing Information, AirLoopHVAC, CENTRAL SYSTEM_UNIT1, Design Supply Air Flow Rate [m3/s], 0.69590
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, DX COOLING COIL_UNIT1, Design Size Rated Air Flow Rate [m3/s], 0.69590
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, DX COOLING COIL_UNIT1, Design Size Gross Rated Total Cooling Capacity [W], 12061.97760
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, DX COOLING COIL_UNIT1, Design Size Gross Rated Sensible Heat Ratio, 0.80013
 ! <DX Cooling Coil Standard Rating Information>, Component Type, Component Name, Standard Rating (Net) Cooling Capacity {W}, Standard Rated Net COP {W/W}, EER {Btu/W-h}, SEER User {Btu/W-h}, SEER Standard {Btu/W-h}, IEER {Btu/W-h}
- DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, DX COOLING COIL_UNIT1, 11609.7, 3.29, 11.23, 11.89, 11.43, 11.44
- Component Sizing Information, AirLoopHVAC:UnitaryHeatCool, ACANDF_UNIT1, Supply Air Flow Rate [m3/s], 0.70065
- Component Sizing Information, AirLoopHVAC:UnitaryHeatCool, ACANDF_UNIT1, Supply Air Flow Rate During Heating Operation [m3/s], 0.70065
- Component Sizing Information, AirLoopHVAC:UnitaryHeatCool, ACANDF_UNIT1, Supply Air Flow Rate During Cooling Operation [m3/s], 0.70065
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, DX COOLING COIL_UNIT1, 11522.2, 3.29, 11.22, 11.89, 11.43, 11.44
+ Component Sizing Information, AirLoopHVAC:UnitaryHeatCool, ACANDF_UNIT1, Supply Air Flow Rate [m3/s], 0.69590
+ Component Sizing Information, AirLoopHVAC:UnitaryHeatCool, ACANDF_UNIT1, Supply Air Flow Rate During Heating Operation [m3/s], 0.69590
+ Component Sizing Information, AirLoopHVAC:UnitaryHeatCool, ACANDF_UNIT1, Supply Air Flow Rate During Cooling Operation [m3/s], 0.69590
  Component Sizing Information, AirLoopHVAC:UnitaryHeatCool, ACANDF_UNIT1, Nominal Heating Capacity [W], 1129.30300
- Component Sizing Information, AirLoopHVAC:UnitaryHeatCool, ACANDF_UNIT1, Nominal Cooling Capacity [W], 12153.22849
+ Component Sizing Information, AirLoopHVAC:UnitaryHeatCool, ACANDF_UNIT1, Nominal Cooling Capacity [W], 12061.97760
  Component Sizing Information, AirLoopHVAC:UnitaryHeatCool, ACANDF_UNIT1, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
- Component Sizing Information, Fan:OnOff, SUPPLY FAN_UNIT1, Design Size Maximum Flow Rate [m3/s], 0.70065
+ Component Sizing Information, Fan:OnOff, SUPPLY FAN_UNIT1, Design Size Maximum Flow Rate [m3/s], 0.69590
  Component Sizing Information, Coil:Heating:Electric, MAIN ELECTRIC HEATING COIL_UNIT1, Design Size Nominal Capacity [W], 1129.30300
  Component Sizing Information, PlantLoop, DHW LOOP_UNIT1, Maximum Loop Flow Rate [m3/s], 4.93808E-004
  Component Sizing Information, PlantLoop, DHW LOOP_UNIT1, Plant Loop Volume [m3], 5.92569E-002
@@ -303,20 +303,20 @@ Environment:WarmupDays,  6
 ! <Tabular Report>,Style,Unit Conversion
 Tabular Report,Commaandhtml,commaandhtml
 ! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
- Warmup Convergence Information,LIVING_UNIT1,SizingPeriod: HONOLULU INTL ARPT ANN HTG 99.6% CONDNS DB,2.9444981601E-002,2.5231229414E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,ATTIC_UNIT1,SizingPeriod: HONOLULU INTL ARPT ANN HTG 99.6% CONDNS DB,8.7281597249E-004,6.0884350401E-004,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,LIVING_UNIT1,SizingPeriod: HONOLULU INTL ARPT ANN HTG 99.6% CONDNS DB,2.7142028685E-002,3.2383008915E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,ATTIC_UNIT1,SizingPeriod: HONOLULU INTL ARPT ANN HTG 99.6% CONDNS DB,7.4089821847E-004,5.8637292513E-004,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 Environment,HONOLULU INTL ARPT ANN CLG .4% CONDNS DB=>MWB,SizingPeriod:DesignDay,08/21,08/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
 Environment:Daylight Saving,No,SizingPeriod:DesignDay
 Environment:Design Day Data,32.20,7.10,DefaultMultipliers,Wetbulb,23.30,{C},101301,60,6.7,0.00,No,No
 Environment:Design Day Misc,233,1106.3,0.2000,0.1216,1.0,-3.33,12.4,ASHRAETau
 Environment:WarmupDays,  6
- Warmup Convergence Information,LIVING_UNIT1,SizingPeriod: HONOLULU INTL ARPT ANN CLG .4% CONDNS DB=>MWB,1.4165510786,0.9273011262,Pass,Pass,0.5359498308,0.9729793171,Pass,Pass
- Warmup Convergence Information,ATTIC_UNIT1,SizingPeriod: HONOLULU INTL ARPT ANN CLG .4% CONDNS DB=>MWB,0.5937230244,0.5241492438,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,LIVING_UNIT1,SizingPeriod: HONOLULU INTL ARPT ANN CLG .4% CONDNS DB=>MWB,1.3820090238,0.9138920979,Pass,Pass,0.5257101089,1.1144219280,Pass,Pass
+ Warmup Convergence Information,ATTIC_UNIT1,SizingPeriod: HONOLULU INTL ARPT ANN CLG .4% CONDNS DB=>MWB,0.5937723968,0.5246004648,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 Environment,ANNUAL,WeatherFileRunPeriod,07/01/2017,07/31/2017,Saturday,31,Use RunPeriod Specified Day,Yes,Yes,No,Yes,Yes,Clark and Allen
 Environment:Daylight Saving,No,
 Environment:WarmupDays,  6
- Warmup Convergence Information,LIVING_UNIT1,RunPeriod: ANNUAL,1.3225219494,0.8808154762,Pass,Pass,0.4028259508,0.7495372509,Pass,Pass
- Warmup Convergence Information,ATTIC_UNIT1,RunPeriod: ANNUAL,0.7387126870,0.5997481053,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,LIVING_UNIT1,RunPeriod: ANNUAL,1.3096510194,0.8693591784,Pass,Pass,0.4338047857,0.9872260392,Pass,Pass
+ Warmup Convergence Information,ATTIC_UNIT1,RunPeriod: ANNUAL,0.7386632465,0.5999876434,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 ! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
 Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
 End of Data
